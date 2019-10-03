@@ -1,0 +1,24 @@
+{
+  "name": "node.with.auth",
+  "version": "1.0.0",
+  "description": "A project with NodeJS API RESTful",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocb-dev-04/node.with.auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocb-dev-04/node.with.auth/issues"
+  },
+  "homepage": "https://github.com/ocb-dev-04/node.with.auth#readme"
+}

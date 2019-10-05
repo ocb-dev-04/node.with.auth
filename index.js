@@ -23,6 +23,7 @@ mongoose.connect(
     () => console.log('Connect to DB sucessful')
 );
 
+
 // START SERVER
 const upServerMessage = () => console.log('We are online');
 app.listen(process.env.SERVER_PORT, upServerMessage);

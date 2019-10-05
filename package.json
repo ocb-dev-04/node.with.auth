@@ -4,9 +4,12 @@
   "description": "A project with NodeJS API RESTful",
   "main": "index.js",
   "dependencies": {
+    "@hapi/joi": "^15.0.3",
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mongodb": "^3.3.2"
+  },
   "scripts": {
     "start": "nodemon index.js"
   },

@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose =  require('mongoose');
-const bodyParser = require('body-parser');
 
 const app = express();
 
@@ -12,15 +11,17 @@ app.use(express.json());
 
 // IMPORT ROUTES
 const authRoute = require('./routes/auth');
+const postAuth = require('./routes/postAuth');
 
 // ROUTE MIDDLEWARE
 app.use('/api/user', authRoute);
+app.use('/api/postAuth', postAuth);
 
 // CONNECT TO DB
 mongoose.connect(
     process.env.DB_CONNECTION,
     { useUnifiedTopology: true },
-    () => console.log('Connect to DB sucessful')
+    () => console.log('Connected to DB!!!')
 );
 
 

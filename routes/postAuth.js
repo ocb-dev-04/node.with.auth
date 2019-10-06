@@ -12,12 +12,6 @@ router.get('/', verify, async (req, res) => {
     
     // RETURN USER INFO OR SOMETHING WHAT YOU NEED
     res.status(200).send(userInfo);
-    // res.json({
-    //     post: {
-    //         title: 'My first post',
-    //         description: 'Ramdon data you shouldnt access'   
-    //     }
-    // });
 });
 
 module.exports = router;

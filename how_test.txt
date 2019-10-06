@@ -1,0 +1,11 @@
+Dependecies:
+-express: server
+-dotenv: acces to .env files and info
+-bcrypt: hash password and more
+-jsonwebtoken: use, asign, verify JWT
+-mongoose: schemas, connect and usee mongodb
+-@hapi/joi: validation req.body
+
+devDependecies:
+-nodemon: re-start server when save change
+
